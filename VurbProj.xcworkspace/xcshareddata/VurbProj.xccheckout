@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D6103D9-FEAD-4734-9F67-1106444D445B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VurbProj</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4821C4BDA4F030297D31D5A29DE4BFEA84F6ED8B</key>
+		<string>https://github.com/rizhang/VurbProj.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VurbProj.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4821C4BDA4F030297D31D5A29DE4BFEA84F6ED8B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rizhang/VurbProj.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4821C4BDA4F030297D31D5A29DE4BFEA84F6ED8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4821C4BDA4F030297D31D5A29DE4BFEA84F6ED8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VurbProj</string>
+		</dict>
+	</array>
+</dict>
+</plist>
