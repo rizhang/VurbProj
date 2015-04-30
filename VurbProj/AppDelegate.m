@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "DataManager.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    
+    ViewController *masterVC = [[ViewController alloc] init];
+    
+    UIWindow *mainWindow = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [mainWindow setRootViewController:masterVC];
+    [mainWindow makeKeyAndVisible];
+    [self setWindow:mainWindow];
+    
     return YES;
 }
 
