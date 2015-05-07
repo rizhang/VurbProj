@@ -47,7 +47,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
 {
-    if(status == kCLAuthorizationStatusAuthorized) {
+    if(status == kCLAuthorizationStatusAuthorizedWhenInUse) {
         [_delegate locationEnabled];
     }
 }

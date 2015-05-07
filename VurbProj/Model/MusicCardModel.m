@@ -49,7 +49,7 @@
 
 -(NSUInteger) hash
 {
-    NSUInteger val = [self.title hash] ^ [self.videoLinkUrl hash] ^[self.thumbNailUrl hash];
+    NSUInteger val = [self.title hash] ^ [self.videoLinkUrl hash] ^ [self.thumbNailUrl hash];
 
     NSLog(@"%lu", (unsigned long)val);
     return val;
